@@ -5,6 +5,11 @@ int main(){
 FILE *archivo;
 char caracter;
 archivo = fopen("prueba.txt","r");
+if(archivo == NULL){
+printf("Error al abrir el archivo");
+}else{
+printf("El contenido del archivo es: \n");
+}
 }
 
 /*
