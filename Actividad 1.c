@@ -14,6 +14,7 @@ printf("%c",caracter);
 }
 }
 fclose(archivo);
+return 0;
 }
 
 /*
