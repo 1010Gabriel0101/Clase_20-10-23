@@ -9,7 +9,11 @@ if(archivo == NULL){
 printf("Error al abrir el archivo");
 }else{
 printf("El contenido del archivo es: \n");
+while((caracter = fgetc(archivo)) != EOF){
+printf("%c",caracter);
 }
+}
+fclose(archivo);
 }
 
 /*
